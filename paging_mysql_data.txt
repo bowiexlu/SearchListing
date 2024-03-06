@@ -1,0 +1,61 @@
+CREATE TABLE tblCompanyInfo(
+   CustomerID	INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+   Company	VARCHAR(35) NOT NULL,
+   Address	VARCHAR(35) NOT NULL,
+   Zipcode	VARCHAR(6) NOT NULL,
+   City		VARCHAR(20) NOT NULL,
+   Phone       	VARCHAR(12) NOT NULL);
+
+
+INSERT INTO tblCompanyInfo
+	(Company, Address, Zipcode, City, Phone)
+	VALUES('AB Access Makers','Kungstorget 22','65100','VASA','031-45 45 00')
+	,('AB EAL','Algatan 4','65610','KORSHOLM','040-15 50 00')
+	,('AB Fastx2','Nils Svenssongatan 24','66530','KVEVLAX','013-56 00 00')
+	,('AB Finlirarna Kommunikation','Grenv&auml;gen 34','66900','NYKARLEBY','011-62 20 00')
+	,('AB Karlbergs Kommunikation','Gurugr&auml;nden 4','65100','VASA','08-13 57 98')
+	,('AB Kungslinjen','Marietorg 6','65100','VASA','08-987 65 43')
+	,('AB Lear & Cagne AB','&ouml;landsv&auml;gen 89','68600','JAKOBSTAD','0480-555 00')
+	,('AB Minidata','Sundsallen 81','65610','KORSHOLM','040-32 20 00')
+	,('AB Netmakers','Von Scheelegatan 30','65100','VASA','08-652 00 00')
+	,('AB Nivillvig','Citystr&aring;ket 55','65100','VASA','08-11 55 33')
+	,('AB Per Persson Systemdata','Sm&aring;landsv&auml;gen 14','65100','VASA','0471-123 45')
+	,('Accessories AB','Ildev&auml;gen 44B','65100','VASA','031-45 45 00')
+	,('Administrator AB','Folkungagatan 68','65100','VASA','08-695 95 95')
+	,('AKUT Data AB','Sturegatan 41','65100','VASA','08-99 99 99')
+	,('All 4 1 Purpose Data','Flemminggatan 88','65100','VASA','08-765 43 21')
+	,('AllRight Data AB','Hantverkargatan 124','65100','VASA','08-440 40 40')
+	,('Allthoughtof Data Ab','Kungsall&eacute;n 22','66900','NYKARLEBY','018-87 78 87')
+	,('Auto Maskin AB','Skalstigen 34','65100','VASA','08-11 45 67')
+	,('B Gatewatch AB','Sveav&auml;gen 77','65100','VASA','08-12 55 55')
+	,('Berts Turdata AB','Tivolitorget 9','65100','VASA','0511-777 77')
+	,('Browser Net Communication Ltd','Informationsgr&auml;nd 8','65100','VASA','0470-543 21')
+	,('Buggkillers DATA AB','Dr&auml;mstigen 6','68600','JAKOBSTAD','0920-321 23')
+	,('Callboys Teleservice AB','Õstra Allen 39','65100','VASA','08-87 66 77')
+	,('Check Box Data AB','Silikatv&auml;gen 76','65610','KORSHOLM','040-72 00 72')
+	,('Chico Programmers Guide Ltd','F&auml;rjestadsgatan 1','65100','VASA','054-11 22 33')
+	,('Comfast AB','Proffsgatan 4','66900','NYKARLEBY','011-54 43 30')
+	,('Complete SolutionsAB','Kungsgatan 110','65100','VASA','08-444 77 77')
+	,('Computer Store AB','M&aring;largatan 62','65100','VASA','08-786 00 00')
+	,('Comp-You Data AB','Norra Bruksv&auml;gen 65','66530','KVEVLAX','060-18 80 00')
+	,('Consulting Maxidevelopers KB','Vasagatan 5','65100','VASA','08-11 37 65')
+	,('Co-Operators Konsult AB','Nerikeplan 7','65100','VASA','019-72 20 20')
+	,('Cover-Up Tele AB','Torsgatan 56','65100','VASA','08-12 34 56')
+	,('Creative Five Ltd','Solrosgatan 45','65610','KORSHOLM','040-55 55 55')
+	,('Data Diggers HB','Bragegatan 3','68600','JAKOBSTAD','0243-654 32')
+	,('Data ab','Vasagatan 84','65100','VASA','031-76 76 76')
+	,('Databyggproffsen HB','Finlandsgatan 2','65100','VASA','08-22 33 44')
+	,('Developers Frontline AB','V&auml;stra Stadsgatan 69','65100','VASA','08-765 45 45')
+	,('Ding Data AB','Himmelsgatan 76','65100','VASA','031-32 10 00')
+	,('El-makarna AB','Vaxgatan 44','65100','VASA','019-63 63 63')
+	,('Fahr & Sond AB','De Geersgatan 55','65100','VASA','031-54 45 00')
+	,('Feel Seekers DATA AB','Bruksgatan 8','65100','VASA','054-20 20 20')
+	,('FeelFine R & D','Percy Torg 16','65610','KORSHOLM','040-10 10 10')
+	,('Frontlinjen 97 AB','Palsternacksgatan 35','66900','NYKARLEBY','011-32 00 00')
+	,('Fyrkl&auml;vern Industrigrupp AB','Sl&auml;jdgatan 34','65100','VASA','08-11 90 00')
+	,('Grupprutans Utvecklargrupp','Miljongatan 67','68600','JAKOBSTAD','042-18 18 18')
+	,('Hans & Son HB','Eldgaffelgr&auml;nd 2','66530','KVEVLAX','060-12 12 12')
+	,('Hardware Store Sthlm','Hamngatan 48','65100','VASA','08-444 85 00')
+	,('HB Kunskap AO','S&auml;dra Stadsgatan 109','66900','NYKARLEBY','011-54 54 54')
+	,('HB Lilldata','Automobilv&auml;gen 102','65100','VASA','08-55 00 55')
+	,('HB Programforum','Trollsp&ouml;v&auml;gen 33','68600','JAKOBSTAD','042-18 33 33');
